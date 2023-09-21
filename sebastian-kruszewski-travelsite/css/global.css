@@ -3,27 +3,47 @@
 *::after {
   box-sizing: border-box;
   font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+  
 }
 
 .footer {
     width: 100%;
-    display: inline-block;
     text-align: center;
     background-color: #FEFAF5;
+    display: flexbox;
+    justify-content: space-evenly;
 }
 
 .footer-hours {
-        width: 20%;
+        width: 46%;
         display:inline-block;
         }
+
 
 .footer-address {
             width: 20%;
             display: inline-block;
             }
+    .footer_hours_weekday {
+        display: inline-block;
+        margin-left: 15px;
 
+    }
+    .footer_hours_weekend {
+        display: inline-block;
+        margin-left: 25px;
 
-.footer-social {
+    }
+    .footer_hours_sunday {
+        display: inline-block;
+        margin-left: 25px;
+
+    }
+    .footer_bighours-text {
+        text-align: center;
+    }
+
+.footer_social_container {
                 width: 20%;
                 display: inline-block;
                 text-align: center;
@@ -34,6 +54,25 @@ color: #DB7A4E;
 font-size: smaller;
 
 }
+
+.footer_social-facebook {
+    width: 6%;
+    margin-left: 35px;
+}
+
+.footer_social-twitter {
+    width: 10%;
+    margin-left: 35px;
+    
+}
+.footer_social-instagram {
+    width: 10%;
+    margin-left: 35px;
+}
+.footer_social-text {
+    margin-left: 35px;
+}
+
 
 li a {
                 text-decoration: none;
@@ -57,7 +96,7 @@ padding-left: 25px;
 }
 
 .nav-links-pushoff {
-    padding-left: 1200px;
+    padding-left: 600px;
 }
 
 
@@ -73,3 +112,11 @@ padding-left: 25px;
 .blue-text {
     color:#335576;
 }
+
+
+
+
+
+
+
+

@@ -32,42 +32,60 @@
      }
 
      .hero-get-started-button {
-            width: 375px;
+            width: 165px;
+            height: 45px;
+            text-align: center;
             margin-left: 5.312rem;
-            padding-top: 14.687rem;
+            margin-top: 14.687rem;
+            padding: 10px;
             position: absolute;
-            color: #DB7A4E;
+            color: white;
+            border: #DB7A4E 2px solid;
+            background-color: #DB7A4E;
+            border-radius: 25px;
              }
 
-    .destination-cards-container {
+   
+   
+    .destination-cards-background{
         background-color: #FFFFFF;
+        display: flex;
     }
-
+    .desination-cards-container {
+   padding-bottom: 250px;
+    }
 
     .destination-cards {
             position: relative;
             border-radius: 20px ;
             display: inline-table;
             text-align: center;
-            margin: 8.125rem;
+            margin-top: 8.125rem;
+            margin-left: 2rem;
+            margin-right: 2rem;
             background-color: white;
-            
+            max-width: 25%;
     }
 
     .desination-cards-text {
         display:inline-block;
         position: absolute;
         padding-top: 425px;
+        margin-left: 200px;
         z-index: 1;
-        padding-left: 220px;
         color: #FFFFFF;
-        
-    
     }
+
+.pass_through {
+
+position: relative;
+}
     .item-pic {
-        width: 340px;
-        height: 480px;
+        width: 21.25rem;
+        height: 30rem;
         display:inline-block;
+        position: relative;
+        z-index: 0;
     
     }
 

@@ -1,0 +1,95 @@
+   
+   
+   
+    .itinerary-cards-container {
+        padding-bottom: 150px;
+        display: flex;
+        background-image:url(/sebastian-kruszewski-travelsite/assests/hawaii.jpg);
+        Width: 1280px;
+        Height: 700px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: relative;
+    }
+
+    .itinerary-cards-container-greece{
+        padding-bottom: 150px;
+        display: flex;
+        background-image:url(/sebastian-kruszewski-travelsite/assests/greece.jpg);
+        Width: 1280px;
+        Height: 700px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: relative;
+
+    }
+
+    .itinerary-cards-container-iceland{
+        padding-bottom: 150px;
+        display: flex;
+        background-image:url(/sebastian-kruszewski-travelsite/assests/iceland.jpg);
+        Width: 1280px;
+        Height: 700px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: relative;
+
+    }
+
+    .itinerary-cards {
+
+            position: relative;
+            border-radius: 20px ;
+            justify-content: space-evenly;
+            text-align: center;
+            margin-top: 8.125rem;
+            margin-left: 6rem;
+            margin-right: 2rem;
+            background-color: white;
+            width: 22%;
+            height: 470px;
+            z-index: 1;
+    }
+
+    .big-location-text {
+        color:white;
+        padding-left: 85px;
+        position: absolute;
+        z-index: 0;
+        font-size: 66px;
+        margin: 0;
+        font-weight: bolder;
+    }
+
+    .itinerary-cards-textdate {
+        border-bottom: black 2px solid;
+        padding: 0px 75px 0px 55px;
+        display: inline-table;
+        position: relative;
+        z-index: 1;
+        color: black;
+    
+        
+    }
+
+    .itinerary-cards-items {
+        font-size: larger;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        background-color: #FEFAF5;
+        text-align: center;
+    }
+
+
+    .item-pic {
+        width: 21.25rem;
+        height: 30rem;
+        display:inline-block;
+        position: relative;
+        z-index: 0;
+    
+    }
+
