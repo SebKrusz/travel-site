@@ -1,86 +1,88 @@
+
    
-   
-   
-    .itinerary-cards-container {
-        padding-bottom: 150px;
+    .itinerary-cards-container-hawaii {
+        padding-bottom: 120px;
         display: flex;
         background-image:url(/sebastian-kruszewski-travelsite/assests/hawaii.jpg);
-        Width: 1280px;
+        /* Width: 1280px; */
         Height: 700px;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
         position: relative;
+        justify-content: space-evenly
     }
 
     .itinerary-cards-container-greece{
-        padding-bottom: 150px;
+        padding-bottom: 120px;
         display: flex;
         background-image:url(/sebastian-kruszewski-travelsite/assests/greece.jpg);
-        Width: 1280px;
+        /* Width: 1280px; */
         Height: 700px;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
         position: relative;
+        justify-content: space-evenly;
+
+     
 
     }
 
     .itinerary-cards-container-iceland{
-        padding-bottom: 150px;
+        padding-bottom: 120px;
         display: flex;
         background-image:url(/sebastian-kruszewski-travelsite/assests/iceland.jpg);
-        Width: 1280px;
+        /* Width: 1280px; */
         Height: 700px;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
         position: relative;
+        justify-content: space-evenly
 
     }
 
     .itinerary-cards {
-
-            position: relative;
             border-radius: 20px ;
-            justify-content: space-evenly;
             text-align: center;
-            margin-top: 8.125rem;
-            margin-left: 6rem;
-            margin-right: 2rem;
+            margin-top: 10.125rem;
             background-color: white;
-            width: 22%;
-            height: 470px;
             z-index: 1;
+            border: white 15px solid;
+            width: 300px;
     }
 
-    .big-location-text {
+    .itinerary-cards-container_header {
         color:white;
+        padding-top: 25px;
         padding-left: 85px;
         position: absolute;
-        z-index: 0;
+        z-index: 1;
         font-size: 66px;
-        margin: 0;
+        margin: 0 ;
         font-weight: bolder;
     }
 
-    .itinerary-cards-textdate {
+    .itinerary-cards-container_textdate {
         border-bottom: black 2px solid;
         padding: 0px 75px 0px 55px;
         display: inline-table;
         position: relative;
         z-index: 1;
         color: black;
+        margin: 0 ;
     
         
     }
 
-    .itinerary-cards-items {
+    .itinerary-cards-container_activities {
         font-size: larger;
-        padding-top: 25px;
-        padding-bottom: 25px;
+        padding-top: 15px;
+        padding-bottom: 15px;
         background-color: #FEFAF5;
         text-align: center;
+        border: white 8px solid;
     }
 
 
@@ -93,3 +95,12 @@
     
     }
 
+
+    .ulfix {
+        display: flex;
+        flex-flow: column wrap;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    

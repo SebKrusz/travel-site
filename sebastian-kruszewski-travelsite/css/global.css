@@ -5,118 +5,154 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
   
 }
-
-.footer {
-    width: 100%;
-    text-align: center;
-    background-color: #FEFAF5;
-    display: flexbox;
-    justify-content: space-evenly;
+body {
+    margin: 0;
 }
 
-.footer-hours {
-        width: 46%;
-        display:inline-block;
-        }
+a {
+    text-decoration: none;
+}
+
+li {
+    
+            display: inline-block;
+            text-decoration: none;
+               
+ }
+
+nav {
+            background-color: #FFFFFF;
+            display: flex;
+            justify-content:space-between;
+}
+
+.nav_links {
+            font-weight: 600;
+            padding-left: 15px;
+            text-decoration: none;
+            color:#393939;
+            text-align: center;
+            font-weight: bold;
+
+}
+
+.nav-logo {
+            padding-left: 75px;
+            color:#335576;
+}
+
+.nav_links--pushoff {
+            padding-left: 625px;
+}
+
+.nav_links--pushback {
+            padding-right: 45px;
+}
+
+.current-menu-item {
+            text-decoration: underline #DB7A4E 4px ;
+}
+
+.logo {
+            color:#335576;
+            padding-left: 90px;
+}
+
+.blue-text-small {
+            color: #335576;
+            font-weight:bold;
+}
+
+.blue_text {
+            color:#335576;
+}
+
+.footer-container {
+            width: 100%;
+            padding-top: 25px;
+            padding-bottom: 25px;
+            background-color: #FEFAF5;
+            justify-content: center;
+            display: flex;
+}
+
+.footer-container__hours {
+            width: 46%;
+            display:inline-block;
+}
 
 
-.footer-address {
+.footer-container__address {
             width: 20%;
             display: inline-block;
-            }
-    .footer_hours_weekday {
-        display: inline-block;
-        margin-left: 15px;
+}
 
-    }
-    .footer_hours_weekend {
-        display: inline-block;
-        margin-left: 25px;
+/* .footer-container__hours-text {
 
-    }
-    .footer_hours_sunday {
-        display: inline-block;
-        margin-left: 25px;
+    } */
 
-    }
-    .footer_bighours-text {
-        text-align: center;
-    }
+.footer-container__hours-weekday {
+            display: inline-block;
+            margin-left: 15px;
 
-.footer_social_container {
+}
+.footer-container__hours-weekend {
+            display: inline-block;
+            margin-left: 25px;
+
+}
+.footer-container__hours-sunday {
+            display: inline-block;
+            margin-left: 25px;
+
+}
+.footer-container__hours-header {
+            margin-bottom: 0;
+            color: #335576;
+            padding-left:1rem;
+}
+
+.footer-container__contact-header {
+            margin-bottom: 0;
+            padding-right: 75px;
+            color:#335576;
+
+}
+
+.footer-container__social {
                 width: 20%;
                 display: inline-block;
                 text-align: center;
-              }
-
-.footer-gold-text {
-color: #DB7A4E;
-font-size: smaller;
-
 }
 
-.footer_social-facebook {
-    width: 6%;
-    margin-left: 35px;
+.footer-container__dates {
+                color: #DB7A4E;
+                font-size: smaller;
 }
 
-.footer_social-twitter {
-    width: 10%;
-    margin-left: 35px;
+.footer-container__dates--email{
+            padding-right: 140px;
+}
+
+.footer-container__social-logos--facebook {
+            width: 6%;
+            margin-left: 35px;
+}
+
+.footer-container__social-logos--twitter {
+            width: 10%;
+            margin-left: 35px;
     
 }
-.footer_social-instagram {
-    width: 10%;
-    margin-left: 35px;
+.footer-container__social-logos--instagram {
+            width: 10%;
+            margin-left: 35px;
 }
-.footer_social-text {
-    margin-left: 35px;
-}
-
-
-li a {
-                text-decoration: none;
-                color:#393939;
-                text-align: center;
-                font-weight: bold;
-                
-                 }
-
-li {
-                    display: inline-block;
-                    margin-right: 35px; /* add spacing between items */
-                    text-decoration: none;
-                }
-nav {
-    background-color: #FFFFFF;
+.footer-container__social {
+            margin-left: 35px;
 }
 
-.nav-links {
-padding-left: 25px;
+.footer-container__social_text {
+            padding-bottom: 15px;
+            color: #335576 ;
 }
-
-.nav-links-pushoff {
-    padding-left: 600px;
-}
-
-
-.blue-small-text {
-    color: #335576;
-}
-
-.blue-mid-text {
-    color:#335576;
-    font-size: larger;
-}
-
-.blue-text {
-    color:#335576;
-}
-
-
-
-
-
-
-
-

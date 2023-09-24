@@ -1,82 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Travel Site</title>
-    <link rel="stylesheet" href="../sebastian-kruszewski-travelsite/css/reset.css">
-    <link rel="stylesheet" href="../sebastian-kruszewski-travelsite/css/global.css">
-    <link rel="stylesheet" href="../sebastian-kruszewski-travelsite/css/main.css">
-</head>
-<body>
-    <header>
-        <nav>
-                    <li><a class="blue-text" href="/"><h2>Travel Site</h2></a></li> <!--remove li -->
-                    <li><a href="/"><p class="nav-links nav-links-pushoff">Home</p></a></li>
-                    <li><a href="/menu.html"><p class="nav-links">Hawaii</p></a></li>
-                    <li><a href="/"><p class="nav-links">Iceland</p></a></li>
-                    <li><a href="/"><p class="nav-links">Greece</p></a></li>
-        </nav>
-        <section class="hero-container">
-                <h2 class="hero-big-text blue-text">Traveling Comes With Endless Discoveries</h2>
-                <p class="hero-index-text blue-small-text">Dont let your dreams be dreams. Experience the world by booking a vacation with us now</p>
-                <a href="/"><p class="hero-get-started-button">Get Started</p></a>
-            <div class="hero-container-image"><!--remove li -->
-                <img class="hero-container-image" src="../sebastian-kruszewski-travelsite/assests/hero.png"></div>
-        </section>
-    </header>
-<!--add main section -->
-        
-<section class="destination-cards-background">
-            <section class="desination-cards-container">
-                <h2 class="blue-text">Recommendations</h2>
-                        <div class="destination-cards">
-                            <h2 class="desination-cards-text">Hawaii</h2>
-                            <a href="/"><img src="../sebastian-kruszewski-travelsite/assests/hawaii.jpg" alt="hawaii" class="item-pic"></a>
-                        </div>
-                        <div class="destination-cards">
-                            <h2 class="desination-cards-text">Iceland</h2>
-                            <a href="/"><img src="../sebastian-kruszewski-travelsite/assests/iceland.jpg" alt="iceland" class="item-pic"></a>
-                        </div>
-                        <div class="destination-cards">
-                            <h2 class="desination-cards-text">Greece</h2>
-                            <a href="/"><img src="../sebastian-kruszewski-travelsite/assests/greece.jpg" alt="greece" class="item-pic"></a>
-                        </section>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Travel Site</title>
+        <link rel="stylesheet" href="../sebastian-kruszewski-travelsite/css/global.css">
+        <link rel="stylesheet" href="../sebastian-kruszewski-travelsite/css/main.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a class href="index.html"><h2 class="nav-logo">Travel Site</h2></a>
+                <ul>
+                    <li><a href="index.html"><p class="nav_links nav_links--pushoff current-menu-item">Home</p></a></li>
+                    <li><a href="../sebastian-kruszewski-travelsite/pages/hawaii.html"><p class="nav_links">Hawaii</p></a></li>
+                    <li><a href="../sebastian-kruszewski-travelsite/pages/iceland.html"><p class="nav_links">Iceland</p></a></li>
+                    <li><a href="../sebastian-kruszewski-travelsite/pages/greece.html"><p class="nav_links nav_links--pushback">Greece</p></a></li>
+                </ul>   
+            </nav>
+            <section class="hero-container">
+                    <h2 class="hero-container_header">Traveling Comes With Endless Discoveries</h2>
+                    <p class="hero-container_index-text blue-text-small">Dont let your dreams be dreams. Experience the world by booking a vacation with us now.</p>
+                    <a href="/"><p class="hero-container_get-started-button">Get Started</p></a>
+                <div class="hero-container__image">
+                    <img class="hero-container__image" src="../sebastian-kruszewski-travelsite/assests/hero.png">
                 </div>
-</section>
-<!--add footer section -->
-        <section class="footer">
-            <div class="footer-address">
-                <h2 class="blue-text">Contact</h2>
-                <p class="footer-gold-text">Email</p>
-                <p class="blue-small-text">info@travelsite.com</p> 
-            </div>
-            <div class="footer-hours">
-                <h2 class="blue-text footer_bighours-text">Hours</h2>
-                    <div class="footer_hours_text">
-                        <div class="footer_hours_weekday">
-                            <p class="footer-gold-text">Monday - Friday</p>
-                                <p class="blue-small-text"> 10am - 5pm</p>
+            </section>
+        </header>
+        <main>     
+            <h2 class="destination-cards-container__header">Recommendations</h2>    
+            <section class="destination-cards-container">
+                <div class="destination-cards">
+                    <a href="../sebastian-kruszewski-travelsite/pages/hawaii.html"><h2 class="desination-cards-container__text">Hawaii</h2></a>
+                    <a href="../sebastian-kruszewski-travelsite/pages/hawaii.html"><img src="../sebastian-kruszewski-travelsite/assests/hawaii.jpg" alt="hawaii" class="item-pic"></a>
+                </div>
+                <div class="destination-cards">
+                    <a href="../sebastian-kruszewski-travelsite/pages/iceland.html"><h2 class="desination-cards-container__text">Iceland</h2></a>
+                    <a href="../sebastian-kruszewski-travelsite/pages/iceland.html"><img src="../sebastian-kruszewski-travelsite/assests/iceland.jpg" alt="iceland" class="item-pic"></a>
+                </div>
+                <div class="destination-cards">
+                    <a href="../sebastian-kruszewski-travelsite/pages/greece.html"><h2 class="desination-cards-container__text">Greece</h2></a>
+                    <a href="../sebastian-kruszewski-travelsite/pages/greece.html"><img src="../sebastian-kruszewski-travelsite/assests/greece.jpg" alt="greece" class="item-pic"></a>
+            </section>
+        </main> 
+        <footer class="footer-container">
+                <div class="footer-container__address">
+                    <h2 class="footer-container__contact-header">Contact</h2>
+                    <p class="footer-container__dates footer-container__dates--email">Email</p>
+                    <p class="blue-text-small">info@travelsite.com</p> 
+                </div>
+                <div class="footer-container__hours">
+                    <h2 class="footer-container__hours-header">Hours</h2>
+                        <div class="footer-container__hours-text">
+                            <div class="footer-container__hours-weekday">
+                                <p class="footer-container__dates">Monday - Friday</p>
+                                <p class="blue-text-small"> 09:00 AM - 5:00 PM</p>
+                            </div>
+                            <div class="footer-container__hours-weekend">
+                                <p class="footer-container__dates">Saturday - Sunday</p>
+                                <p class="blue-text-small"> 10:00 AM - 4:00 PM</p>
+                            </div>
+                            <div class="footer-container__hours-sunday">
+                                <p class="footer-container__dates">Sunday</p>
+                                <p class="blue-text-small"> Closed </p>
+                            </div>
                         </div>
-                        <div class="footer_hours_weekend">
-                            <p class="footer-gold-text">Saturday - Sunday</p>
-                                <p class="blue-small-text"> 9am - 7pm</p>
-                        </div>
-                        <div class="footer_hours_sunday">
-                            <p class="footer-gold-text">Sunday</p>
-                                <p class="blue-small-text"> Closed </p>
-                         </div>
+                </div>
+                <div class="footer-container__social">
+                    <h2 class="footer-container__social_text" >Social</h2>
+                    <div class="footer-container__social-logos">
+                        <a href="https://www.Instagram.com"><img class="footer-container__social-logos--instagram" src="../sebastian-kruszewski-travelsite/assests/icon-instagram.png"></a>
+                        <a href="https://www.facebook.com"><img class="footer-container__social-logos--facebook" src="../sebastian-kruszewski-travelsite/assests/icon-facebook.png"></a>
+                        <a href="https://www.Twitter.com"><img class="footer-container__social-logos--twitter" src="../sebastian-kruszewski-travelsite/assests/icon-twitter.png"></a>
                     </div>
                 </div>
-            <div class="footer_social_container">
-                <h2 class="blue-text footer_social-text">Social</h2>
-                <div class="footer_social-logos">
-                    <a href="www.Twitter.com"><img class="footer_social-twitter" src="../sebastian-kruszewski-travelsite/assests/icon-twitter.png"></a>
-                    <a href="www.Instagram.com"><img class="footer_social-instagram" src="../sebastian-kruszewski-travelsite/assests/icon-instagram.png"></a>
-                    <a href="www.facebook.com"><img class="footer_social-facebook" src="../sebastian-kruszewski-travelsite/assests/icon-facebook.png"></a>
-                </div>
-            </div>
-        </section>
-</body>
+        </footer>
+    </body>
 </html>
