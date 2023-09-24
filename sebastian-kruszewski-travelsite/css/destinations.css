@@ -3,7 +3,7 @@
     .itinerary-cards-container-hawaii {
         padding-bottom: 120px;
         display: flex;
-        background-image:url(/sebastian-kruszewski-travelsite/assests/hawaii.jpg);
+        background-image:url(../assests/hawaii.jpg);
         /* Width: 1280px; */
         Height: 700px;
         background-size: cover;
@@ -16,7 +16,7 @@
     .itinerary-cards-container-greece{
         padding-bottom: 120px;
         display: flex;
-        background-image:url(/sebastian-kruszewski-travelsite/assests/greece.jpg);
+        background-image:url(../assests/greece.jpg);
         /* Width: 1280px; */
         Height: 700px;
         background-size: cover;
@@ -32,7 +32,7 @@
     .itinerary-cards-container-iceland{
         padding-bottom: 120px;
         display: flex;
-        background-image:url(/sebastian-kruszewski-travelsite/assests/iceland.jpg);
+        background-image:url(../assests/iceland.jpg);
         /* Width: 1280px; */
         Height: 700px;
         background-size: cover;
