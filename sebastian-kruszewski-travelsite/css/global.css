@@ -16,8 +16,7 @@ a {
 li {
     
             display: inline-block;
-            text-decoration: none;
-               
+            text-decoration: none;            
  }
 
 nav {
@@ -33,7 +32,6 @@ nav {
             color:#393939;
             text-align: center;
             font-weight: bold;
-
 }
 
 .nav-logo {
@@ -116,7 +114,6 @@ nav {
             margin-bottom: 0;
             padding-right: 75px;
             color:#335576;
-
 }
 
 .footer-container__social {
