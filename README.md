@@ -1,5 +1,8 @@
 # Travel Destination Website Project
 
+### IMAGES:
+https://imgur.com/a/GAdHdGK
+
 ## Overview
 
 This is my first project that involved designing and implementing a basic travel destination website for a travel company. The website consists of four pages, including a Home Page and three Destination Pages for Iceland, Greece, and Hawaii. The project focuses on utilizing HTML, CSS, and component thinking to convert creative mockups into a functional multi-page static site.
